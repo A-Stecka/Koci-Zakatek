@@ -1,0 +1,251 @@
+/*basic font and background config*/
+body {
+    font-family: Cochin, Cambria, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+    margin: 0;
+    background-image: url(images/logo.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: white;
+}
+
+h1 {
+    font-size: xx-large;
+    color: darkolivegreen;
+}
+
+h2 {
+    font-size: x-large;
+    color: darkolivegreen;
+}
+
+h3 {
+    font-size: larger;
+    color: darkolivegreen;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+.button {
+    font-family: Cochin, Cambria, Times, 'Times New Roman', serif;
+    font-size: 1em;
+}
+
+.inline_links ul li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 10pt;
+}
+
+/*basic link formatting*/
+a {
+    color: #c51f1f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #a81d1d;
+}
+
+/*banner config*/
+.header img {
+    display: block; 
+    width: 100%;
+}
+
+/*nav bar config*/
+.nav a {
+    display: block;
+    background-color: #a09f6c;
+    border-radius: 5pt;
+    line-height: 2em;
+    width: 225px;
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #858459;
+}
+
+.nav li {
+    display: inline-block;
+    margin-bottom: 2pt;
+}
+
+.nav ul {
+    padding-inline-start: 0;
+    margin: 2pt;
+}
+
+.nav {
+    text-align: center;
+}
+
+/*footer config*/
+.footer {
+    text-align: center;
+    font-size: 10pt;
+}
+
+/*text centering and margin for uncentered text*/
+.content_center {
+    text-align: center;
+}
+
+.content_left {
+    margin: 8px;
+}
+
+/*animals page*/
+table {
+    border-collapse: collapse;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 50%;
+}
+
+th, td {
+    border: 1px solid #a09f6c;
+    padding: 1em;
+}
+
+thead {
+    background-color: #a09f6c;
+    color: white;
+    font-size: 1.75em;
+    line-height: 0.25em;
+}
+
+.table_cat_name {
+    font-size: 1.75em;
+    line-height: 0.25em;
+}
+
+tbody img {
+    border-radius: 10pt;
+}
+
+.table_info {
+    text-align: left;
+}
+
+thead, .table_cat_image, tbody tr:nth-child(3) {
+    border-bottom: 5px solid #a09f6c;
+    border-left: 5px solid #a09f6c;
+    border-right: 5px solid #a09f6c;
+}
+
+tbody tr:nth-child(1), tbody tr:nth-child(4), tbody tr td {
+    border-right: 5px solid #a09f6c;
+}
+
+tbody tr:nth-child(6) {
+    border-bottom: 5px solid #a09f6c;
+}
+
+/*faq page*/
+.list_level_1 {
+    font-weight: bold;
+}
+
+/*form pages*/
+input, textarea, select {
+    font-family: Cochin, Cambria, Times, 'Times New Roman', serif;
+    font-size: 1em;
+}
+
+/*more pages*/
+.cat_image {
+    border-radius: 10pt;
+    width: 500pt;
+    height: 500pt;
+}
+
+meter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*main page*/
+blockquote {
+    text-align: center;
+    font-size: larger;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav h2 {
+    margin: 0;
+    display: block;
+    background-color: #a09f6c;
+    width: 350px;
+    line-height: 1.5em;
+    border-radius: 5pt;
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+}
+
+nav a, nav a:visited {
+    color: white;
+}
+
+nav ul {
+    padding: 0;
+    display: none;
+    list-style: none;
+    line-height: 1.5em;
+    font-size: 20px;
+    border-radius: 5pt;
+    color: white;
+    width: 350px;
+    text-align: center;
+    position: relative;
+}
+
+nav:hover ul {
+    display: block;
+    margin: 0;
+    background-color: #b8b781;
+}
+
+nav ul li .subcategory {
+    display: none;
+}
+
+nav ul li:hover .subcategory {
+    display: block;
+    background-color: #c5c495;
+    position: absolute;
+    left: 350px;
+    top: 0px;
+} 
+
+nav ul li ul li .subsubcategory {
+    display: none;
+}
+
+nav ul li ul li:hover .subsubcategory {
+    display: block;
+    background-color: #cac99f;
+    position: absolute;
+    left: 350px;
+    top: 0px;
+}
+
+.main_cat_image {
+    border-radius: 10pt;
+}
