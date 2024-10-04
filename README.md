@@ -3,4 +3,4 @@ Projekt strony internetowej dla schroniska Koci Zakątek wykonany w ramach przem
 -
 Projekt nie obejmuje kwestii bezpieczeństwa logowania i ochrony danych użytkowników. 
 
-Projekt wykonany wspólnie z B. Tlołką https://github.com/Boguslawa-Tlolka
+Projekt wykonany wspólnie z [B. Tlołką](https://github.com/Boguslawa-Tlolka).
