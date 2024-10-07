@@ -1,6 +1,6 @@
 # Koci Zakątek
-Projekt strony internetowej dla schroniska Koci Zakątek wykonany w ramach przemiotu Projektowanie systemów webowych
+A website project for the Koci Zakątek animal shelter created as part of the course: Web Systems Design
 -
-Projekt nie obejmuje kwestii bezpieczeństwa logowania i ochrony danych użytkowników. 
+This project does not cover login security and user data protection.
 
-Projekt wykonany wspólnie z [B. Tlołką](https://github.com/Boguslawa-Tlolka).
+Project completed in collaboration with [B. Tlołka](https://github.com/Boguslawa-Tlolka).
