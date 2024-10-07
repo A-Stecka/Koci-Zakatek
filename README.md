@@ -1,5 +1,5 @@
 # Koci Zakątek
-A website project for the Koci Zakątek animal shelter created as part of the course: Web Systems Design
+A website project for the Koci Zakątek animal shelter created as part of the Web Systems Design course
 -
 This project does not cover login security and user data protection.
 
